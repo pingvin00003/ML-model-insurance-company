@@ -67,6 +67,8 @@ new_client = pd.DataFrame({
 <img width="188" height="58" alt="Screenshot_5" src="https://github.com/user-attachments/assets/cf0f123c-8153-4cd1-aad1-c8322075f0fd" />
 
 Работа модели:
+
+
 <img width="797" height="608" alt="Screenshot_2" src="https://github.com/user-attachments/assets/a0cdd072-8a8a-4594-88e4-00a7ff418df3" />
 <img width="698" height="592" alt="Screenshot_1" src="https://github.com/user-attachments/assets/38f3dea0-fbd4-4ea4-9fcf-8d108f85529b" />
 
