@@ -1,4 +1,9 @@
 # ML-model-insurance-company
+
+РУ:
+Образовательная практика по поиску наиболее сильных характеристик из готовых данных для обучения модели ML на основе данных страховой компании
+
+EN:
 Educational practice on finding the strongest features from ready-made data for training an ML model based on data from an insurance company
 
 -----------Описание-----------
