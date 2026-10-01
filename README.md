@@ -26,7 +26,9 @@ to predict estimated costs for a new client and help the Insurance Company under
 - Найденные: smoker_bmi, age_smoker, is_obese, smoker_obese, bmi_squared
 
 ---Модель---
+```python
 RandomForestRegressor (n_estimators=500, max_depth=15, min_samples_leaf=2)
+```
 
 ---Метрики (обучение-80%, тест-20%)---
 - R²  = 0.846
