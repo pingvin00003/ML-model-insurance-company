@@ -53,6 +53,7 @@ Additional engineered features:
 
 **`smoker_obese` — 0.83**
 Функция для курильщиков с ИМТ > 30
+
 This feature represents customers who are both smokers
 and have BMI > 30.
 
