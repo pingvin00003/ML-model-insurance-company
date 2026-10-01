@@ -32,6 +32,7 @@ This is a training project for developing personal skills in the field of data a
 Finding strong features for an ML model based on already existing features.
 The model is designed to predict individual insurance costs based on the demographic and behavioral characteristics of the client.
 
+## 🔍 Key Features
 The model uses:
 - Age
 - BMI
@@ -47,7 +48,7 @@ Additional engineered features:
 - `smoker_obese`
 - `bmi_squared`
 
-
+## 🧠 Feature Importance
   The strongest feature was:
 
 **`smoker_obese` — 0.83**
@@ -79,6 +80,7 @@ RandomForestRegressor (n_estimators=500, max_depth=15, min_samples_leaf=2)
    Этот признак оказался наиболее значимым в модели и отражает сочетание двух факторов риска
 3. `smoker_bmi`   (~0.10) (признак - курящие с разделением на ИМТ для выборки сильнейшей связки)
 
+## 🚀 Usage
 ---Использование---
 ```python
 import joblib, pandas as pd
@@ -91,6 +93,7 @@ model.predict(new_df[features])
 <img width="1091" height="688" alt="Screenshot_3" src="https://github.com/user-attachments/assets/384b8c0f-4b3b-46a3-9e9a-a3dec725617b" />
 <img width="469" height="73" alt="Screenshot_4" src="https://github.com/user-attachments/assets/7924b83c-89a1-4e91-8f32-303f7532e313" />
 
+## 👤 Example Prediction
 Предсказание нового клиента:
 - Age: 35
 - BMI: 33
@@ -106,6 +109,7 @@ new_client = pd.DataFrame({
 ```
 <img width="188" height="58" alt="Screenshot_5" src="https://github.com/user-attachments/assets/cf0f123c-8153-4cd1-aad1-c8322075f0fd" />
 
+## 📈 Prediction Performance
 Работа модели:
 
 
