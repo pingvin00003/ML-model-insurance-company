@@ -37,6 +37,7 @@ RandomForestRegressor (n_estimators=500, max_depth=15, min_samples_leaf=2)
 2. smoker_bmi   (~0.10) (признак - курящие с разделением на ИМТ для выборки сильнейшей связки)
 
 ---Использование---
+```python
 import joblib, pandas as pd
 model = joblib.load('charges_model.pkl')
 features = joblib.load('charges_features.pkl')
