@@ -29,6 +29,29 @@ to identify the strongest factors affecting insurance charges.
 
 EN:
 
+The model uses:
+- Age
+- BMI
+- Children
+- Sex
+- Smoker
+- Region
+
+Additional engineered features:
+- `smoker_bmi`
+- `age_smoker`
+- `is_obese`
+- `smoker_obese`
+- `bmi_squared`
+
+
+  The strongest feature was:
+
+**`smoker_obese` — 0.83**
+Функция для курильщиков с ИМТ > 30
+This feature represents customers who are both smokers
+and have BMI > 30.
+
 
 P.S: 
 РУ:
@@ -71,6 +94,12 @@ model.predict(new_df[features])
 <img width="469" height="73" alt="Screenshot_4" src="https://github.com/user-attachments/assets/7924b83c-89a1-4e91-8f32-303f7532e313" />
 
 Предсказание нового клиента:
+- Age: 35
+- BMI: 33
+- Children: 2
+- Sex: Male
+- Smoker: Yes
+- Smoker BMI: 33
 ```python
 new_client = pd.DataFrame({
     'age': [35], 'bmi': [33], 'children': [2],
