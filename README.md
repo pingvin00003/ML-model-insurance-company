@@ -1,3 +1,4 @@
+<img width="797" height="608" alt="Screenshot_2" src="https://github.com/user-attachments/assets/a0cdd072-8a8a-4594-88e4-00a7ff418df3" />
 # ML-model-insurance-company
 
 РУ:
