@@ -1,22 +1,34 @@
 # ML-model-insurance-company
 
+Machine Learning project for predicting individual medical insurance costs.
+
 РУ:
-Образовательная практика по поиску наиболее сильных характеристик из готовых данных для обучения модели ML на основе данных страховой компании
+Проект исследует разработку функций Random Forest regression. 
+Выявить наиболее сильные факторы, влияющие на страховые расходы.
 
 EN:
-Educational practice on finding the strongest features from ready-made data for training an ML model based on data from an insurance company
+The project explores feature engineering and Random Forest regression
+to identify the strongest factors affecting insurance charges.
+
+## 📊 Model Results
+
+| Metric | Result |
+|---|---:|
+| Model | Random Forest Regressor |
+| R² | **0.846** |
+| MAE | **2776** |
+| Train / Test | **80% / 20%** |
+
 
 -----------Описание-----------
 
 РУ: 
 Это учебный проект для отработки персональных навыков в сфере аналитики данных. 
-Нахождение сильных признаков для ML модели на основе уже существующих признаков, 
-с целью научить модель предсказывать предполагаемые расходы для нового клиента и помогать Страховой компании на корню понимать сумму для конкретного человека.
+Нахождение сильных признаков для ML модели на основе уже существующих признаков.
+Модель предназначена для прогнозирования индивидуальных страховых расходов на основе демографических и поведенческих характеристик клиента
 
 EN:
-This is a training project for developing personal skills in the field of data analytics. 
-Finding strong features for an ML model based on pre-existing features in order to teach the model,
-to predict estimated costs for a new client and help the Insurance Company understand the amount for a particular person at the root
+
 
 P.S: 
 РУ:
@@ -42,8 +54,9 @@ RandomForestRegressor (n_estimators=500, max_depth=15, min_samples_leaf=2)
 - MAE = 2776
 
 ---Главные признаки---
-1. smoker_obese (~0.83) (признак - курящий с ИМТ > 30)
-2. smoker_bmi   (~0.10) (признак - курящие с разделением на ИМТ для выборки сильнейшей связки)
+1. smoker_obese (~0.83) (признак - бинарный признак, равный 1, если клиент одновременно является курильщиком и имеет BMI > 30)
+   Этот признак оказался наиболее значимым в модели и отражает сочетание двух факторов риска
+3. smoker_bmi   (~0.10) (признак - курящие с разделением на ИМТ для выборки сильнейшей связки)
 
 ---Использование---
 ```python
