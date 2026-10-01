@@ -1,4 +1,3 @@
-<img width="797" height="608" alt="Screenshot_2" src="https://github.com/user-attachments/assets/a0cdd072-8a8a-4594-88e4-00a7ff418df3" />
 # ML-model-insurance-company
 
 РУ:
@@ -45,3 +44,9 @@ import joblib, pandas as pd
 model = joblib.load('charges_model.pkl')
 features = joblib.load('charges_features.pkl')
 model.predict(new_df[features])
+```
+
+<img width="797" height="608" alt="Screenshot_2" src="https://github.com/user-attachments/assets/a0cdd072-8a8a-4594-88e4-00a7ff418df3" />
+<img width="698" height="592" alt="Screenshot_1" src="https://github.com/user-attachments/assets/38f3dea0-fbd4-4ea4-9fcf-8d108f85529b" />
+
+
