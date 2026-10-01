@@ -28,6 +28,9 @@ to identify the strongest factors affecting insurance charges.
 Модель предназначена для прогнозирования индивидуальных страховых расходов на основе демографических и поведенческих характеристик клиента
 
 EN:
+This is a training project for developing personal skills in the field of data analytics. 
+Finding strong features for an ML model based on already existing features.
+The model is designed to predict individual insurance costs based on the demographic and behavioral characteristics of the client.
 
 The model uses:
 - Age
@@ -61,11 +64,6 @@ EN:
 The model needs additional pre-training since the smoker_obese attribute has >200 entries for a total of ~1300 due to this spread, the model may not show accuracy.
 
 -------------------------------
-
-
----Признаки---
-- age, bmi, children, sex, smoker, region
-- Найденные: smoker_bmi, age_smoker, is_obese, smoker_obese, bmi_squared
 
 ---Модель---
 ```python
